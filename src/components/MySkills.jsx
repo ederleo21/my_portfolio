@@ -10,34 +10,35 @@ const skills = [
   {
     icon: py,
     title: 'Python',
-    description: 'Experiencia en la creación de páginas web estructuradas con HTML5.',
+    description: 'Lenguaje versátil con el que he creado scripts, automatizaciones y aplicaciones backend robustas.',
   },
   {
     icon: js,
     title: 'JavaScript',
-    description: 'Dominio de estilos avanzados para crear interfaces atractivas y responsive.',
+    description: 'Conocimiento sólido en lógica de programación y creación de interfaces dinámicas.'
   },
   {
     icon: dj,
     title: 'Django/Rest framework',
-    description: 'Desarrollo de funcionalidades interactivas con JavaScript y ES6+.',
+    description: 'Desarrollo de APIs RESTful estructuradas, y aplicaciones web completas en Django.',
   },
   {
     icon: react,
     title: 'React JS',
-    description: 'Creación de aplicaciones web dinámicas con React y hooks.',
+    description: 'Construcción de interfaces modernas y componentes reutilizables usando hooks y estados.',
   },
   {
     icon: git,
     title: 'Git/GitHub',
-    description: 'Desarrollo de backends eficientes y escalables con Node.js y Express.',
+    description: 'Control de versiones y colaboración en proyectos mediante ramas, commits y pull requests.',
   },
   {
     icon: bd,
     title: 'Base de datos',
-    description: 'Experiencia con bases de datos relacionales, optimización y consultas avanzadas.',
+    description: 'Gestión y diseño de base de datos relacionales, normalización y consultas SQL.',
   },
 ];
+
 export const MySkills = () => {
     return (
       <div className="bg-light py-20 mx-4">
