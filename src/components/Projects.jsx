@@ -18,7 +18,7 @@ export const Projects = () => {
   const nextPage = () => setCurrentPage((prev) => Math.min(prev + 1, totalPages));
 
   return (
-<div className="bg-light pb-20 sm:py-20 px-6 sm:px-10">
+<div className="bg-light pb-20 sm:py-20 px-6 sm:px-10" id='projects'>
   <h1 className="font-lora font-bold text-darktext text-4xl sm:text-5xl lg:text-6xl text-center">
     Últimos proyectos
   </h1>

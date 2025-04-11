@@ -41,7 +41,7 @@ const skills = [
 
 export const MySkills = () => {
     return (
-      <div className="bg-light py-20 mx-4">
+      <div className="bg-light py-20 mx-4" id='skills'>
         <div className="max-w-screen-xl mx-auto">
           <h1 className="font-lora font-bold text-darktext text-5xl sm:text-6xl text-center mb-12">
             Mis habilidades

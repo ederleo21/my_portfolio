@@ -15,10 +15,10 @@ export const Navbar = () => {
         </div>
     
         <div className="hidden md:flex space-x-8 lg:space-x-14 font-poppins">
-          <a className="text-lg lg:text-xl cursor-pointer text-darktext hover:text-indigodark font-bold">Sobre mí</a>
-          <a className="text-lg lg:text-xl cursor-pointer text-darktext hover:text-indigodark font-bold">Habilidades</a>
-          <a className="text-lg lg:text-xl cursor-pointer text-darktext hover:text-indigodark font-bold">Proyectos</a>
-          <a className="text-lg lg:text-xl cursor-pointer text-darktext hover:text-indigodark font-bold">Contacto</a>
+          <a href='#about' className="text-lg lg:text-xl cursor-pointer text-darktext hover:text-indigodark font-bold">Sobre mí</a>
+          <a href='#skills' className="text-lg lg:text-xl cursor-pointer text-darktext hover:text-indigodark font-bold">Habilidades</a>
+          <a href='#projects' className="text-lg lg:text-xl cursor-pointer text-darktext hover:text-indigodark font-bold">Proyectos</a>
+          <a href='#about' className="text-lg lg:text-xl cursor-pointer text-darktext hover:text-indigodark font-bold">Contacto</a>
         </div>
     
         <div className="md:hidden">
@@ -38,10 +38,10 @@ export const Navbar = () => {
           menuOpen ? 'translate-y-0 opacity-100' : '-translate-y-10 opacity-0'
         }`}
       >
-        <a className="block text-lg cursor-pointer text-darktext hover:text-indigodark font-bold">Sobre mí</a>
-        <a className="block text-lg cursor-pointer text-darktext hover:text-indigodark font-bold">Habilidades</a>
-        <a className="block text-lg cursor-pointer text-darktext hover:text-indigodark font-bold">Proyectos</a>
-        <a className="block text-lg cursor-pointer text-darktext hover:text-indigodark font-bold">Contacto</a>
+        <a onClick={() => setMenuOpen(!menuOpen)} href='#about' className="block text-lg cursor-pointer text-darktext hover:text-indigodark font-bold">Sobre mí</a>
+        <a onClick={() => setMenuOpen(!menuOpen)} href='#skills' className="block text-lg cursor-pointer text-darktext hover:text-indigodark font-bold">Habilidades</a>
+        <a onClick={() => setMenuOpen(!menuOpen)} href='#projects' className="block text-lg cursor-pointer text-darktext hover:text-indigodark font-bold">Proyectos</a>
+        <a onClick={() => setMenuOpen(!menuOpen)} href='#about' className="block text-lg cursor-pointer text-darktext hover:text-indigodark font-bold">Contacto</a>
       </div>
     </nav>
   );
