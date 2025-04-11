@@ -19,12 +19,12 @@ const skills = [
   },
   {
     icon: dj,
-    title: 'Django/rest framework',
+    title: 'Django/Rest framework',
     description: 'Desarrollo de funcionalidades interactivas con JavaScript y ES6+.',
   },
   {
     icon: react,
-    title: 'React',
+    title: 'React JS',
     description: 'Creación de aplicaciones web dinámicas con React y hooks.',
   },
   {
