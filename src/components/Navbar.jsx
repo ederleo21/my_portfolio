@@ -11,7 +11,7 @@ export const Navbar = () => {
     <nav className="bg-grey p-6 py-8 sticky top-0 left-0 right-0 z-50">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <div className="text-indigodark text-4xl lg:text-5xl font-extrabold font-lora">
-          DERTECH
+          EderLeo
         </div>
     
         <div className="hidden md:flex space-x-8 lg:space-x-14 font-poppins">

@@ -5,6 +5,8 @@ import { MySkills } from '../components/MySkills';
 import { LineDesignBottom } from '../components/utils/LineDesign';
 import { LineDesignTop } from '../components/utils/LineDesign';
 import { Projects } from '../components/Projects';
+import { Contact } from '../components/Contact';
+import { Footer } from '../components/Footer';
 
 export const MainPage = () => {
 
@@ -16,6 +18,8 @@ export const MainPage = () => {
         <MySkills/>
         <Projects/>
         <LineDesignTop/>
+        <Contact/>
+        <Footer/>
     </div>
   )
 }
