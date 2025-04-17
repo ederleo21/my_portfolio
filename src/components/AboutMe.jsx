@@ -13,11 +13,11 @@ export const AboutMe = () => {
           <p className="max-w-2xl mb-6 text-lighttext font-poppins lg:mb-8 md:text-lg lg:text-2xl">Me apasiona el desarrollo web y la creación de soluciones digitales. Me enfoco en construir aplicaciones funcionales y eficientes, siempre aprendiendo y mejorando con cada proyecto.</p>
 
           <a className="inline-flex cursor-pointer items-center justify-center px-6 py-4 mr-3 text-lg sm:text-xl font-medium text-center text-light rounded-lg bg-indigodark focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900 transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
-            CONTÁCTAME
+            Descargar CV
           </a>
 
-          <a className="inline-flex cursor-pointer items-center mt-2 sm:mt-0 font-poppins justify-center px-6 py-4 text-lg sm:text-xl font-medium text-center text-indigodark border border-indigodark rounded-lg transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
-            MÁS SOBRE MÍ
+          <a href='#projects' className="inline-flex cursor-pointer items-center mt-2 sm:mt-0 font-poppins justify-center px-6 py-4 text-lg sm:text-xl font-medium text-center text-indigodark border border-indigodark rounded-lg transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
+            Mis proyectos
           </a>  
         </div>
 
