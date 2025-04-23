@@ -25,7 +25,7 @@ export const Contact = () => {
       <div className="flex items-center space-x-2">
         <FaEnvelope className="text-blue-600 text-xl" />
         <span className="font-bold text-darktext text-lg sm:text-xl">Email:</span>
-        <a href="mailto:ederordonez10@gmail.com" className="text-blue-600 hover:underline text-lg sm:text-xl">ederordonez10@gmail.com</a>
+        <a href="mailto:ederordonez10@gmail.com" className="text-blue-600 hover:underline text-lg sm:text-xl">ederordonezdev@gmail.com</a>
       </div>
 
       <div className="flex items-center space-x-2">
