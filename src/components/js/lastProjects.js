@@ -18,7 +18,7 @@ export const projects = [
         description: "DefenserAI es una solución de vigilancia inteligente que detecta peleas, incendios u otras anomalías. App Web desarrollada con Django y OpenCV.",
         isLive: false,
         url_live: "",
-        url_github: ""
+        url_github: "https://github.com/ederleo21/DefenserAI---anomaly-detection"
     }
 ]
 
