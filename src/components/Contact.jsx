@@ -13,7 +13,7 @@ export const Contact = () => {
         <div className="space-y-6">
           <h3 className="text-3xl sm:text-4xl font-bold text-indigodark font-lora">Eder Ordoñez Gonzalez</h3>
           <p className="text-lg sm:text-xl text-gray-600 font-poppins">
-            Como desarrollador Fullstack, estoy buscando oportunidades para aportar mis habilidades en Python, Django y React a proyectos innovadores. Si necesitas fortalecer tu equipo con un perfil comprometido, creativo y orientado a resultados, ¡hablemos!
+            Como desarrollador web junior, estoy buscando oportunidades para aportar mis habilidades en proyectos innovadores. Si necesitas fortalecer tu equipo con un perfil comprometido, creativo y orientado a resultados, ¡Contáctame!
           </p>
         </div>
       
@@ -37,8 +37,8 @@ export const Contact = () => {
               <FaLinkedin className="text-blue-600 text-xl" />
               <span className="font-bold text-darktext text-lg sm:text-xl">LinkedIn:</span>
             </div>
-            <a href="https://linkedin.com/in/victoria-dev" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-lg sm:text-xl">
-              linkedin.com/in/victoria-dev
+            <a href="https://goo.su/3F9WlC" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-lg sm:text-xl">
+              https://goo.su/3F9WlC
             </a>
           </div>
       
@@ -47,8 +47,8 @@ export const Contact = () => {
               <FaGithub className="text-blue-600 text-xl" />
               <span className="font-bold text-darktext text-lg sm:text-xl">GitHub:</span>
             </div>
-            <a href="https://github.com/ederleo21" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-lg sm:text-xl">
-              https://github.com/ederleo21
+            <a href="https://goo.su/UA6u" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-lg sm:text-xl">
+              https://goo.su/UA6u
             </a>
           </div>
         </div>
