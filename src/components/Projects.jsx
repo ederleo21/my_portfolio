@@ -60,6 +60,17 @@ export const Projects = () => {
                 Ver Live
               </a>
             ) }
+            {project.url_video && (
+              <a
+                href={project.url_video}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center bg-indigodark hover:bg-indigo-800 font-poppins text-white text-sm sm:text-base font-semibold py-2 px-4 rounded transition duration-200"
+                >
+                <FaExternalLinkAlt className="inline mr-2" />
+                Video demo
+              </a>
+            )}
             <a
               href={project.url_github}
               target="_blank"
